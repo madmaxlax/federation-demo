@@ -11,9 +11,10 @@
     "postinstall": "lerna bootstrap"
   },
   "devDependencies": {
+    "apollo": "^2.32.5",
+    "concurrently": "latest",
     "lerna": "latest",
-    "nodemon": "latest",
-    "concurrently": "latest"
+    "nodemon": "latest"
   },
   "dependencies": {
     "@apollo/gateway": "latest",
